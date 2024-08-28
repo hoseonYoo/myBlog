@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CommnetListItem {
+public class commentListItem {
   private String nickname;
   private String profileImage;
   private String writeDatetime;

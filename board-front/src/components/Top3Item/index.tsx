@@ -11,7 +11,7 @@ export default function Top3Item({top3ListItem}: Props) {
 
   //    properties    //
   const { boardNumber, title, content, boardTitleImage } = top3ListItem;
-  const { favoriteCount, commnetCount, viewCount } = top3ListItem;
+  const { favoriteCount, commentCount, viewCount } = top3ListItem;
   const { writeDatetime, writerNickname, writerProfileImage } = top3ListItem;
 
   //    function: 네비게이트 함수    //
@@ -41,7 +41,7 @@ export default function Top3Item({top3ListItem}: Props) {
         </div>
         <div className='top-3-list-item-bottom'>
           <div className='top-3-list-item-counts'>
-            {`댓글 ${commnetCount} | 좋아요 ${favoriteCount} | 조회수 ${viewCount}`}
+            {`댓글 ${commentCount} | 좋아요 ${favoriteCount} | 조회수 ${viewCount}`}
           </div>
         </div>
       </div>

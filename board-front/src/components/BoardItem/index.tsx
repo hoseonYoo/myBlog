@@ -13,7 +13,7 @@ export default function BoardItem({boardListItem}: Props) {
 
   //     Properties     //
   const { boardNumber, title, content, boardTitleImage } = boardListItem;
-  const { favoriteCount, commnetCount, viewCount } = boardListItem;
+  const { favoriteCount, commentCount, viewCount } = boardListItem;
   const { writeDatetime, writerNickname, writerProfileImage } = boardListItem;
 
   //     function : 네비게이트 함수     //
@@ -49,7 +49,7 @@ export default function BoardItem({boardListItem}: Props) {
         </div>
         <div className="board-list-item-bottom">
           <div className="board-list-item-counts">
-            {`댓글 ${commnetCount} | 좋아요 ${favoriteCount} | 조회수 ${viewCount}`}
+            {`댓글 ${commentCount} | 좋아요 ${favoriteCount} | 조회수 ${viewCount}`}
           </div>
         </div>
       </div>
