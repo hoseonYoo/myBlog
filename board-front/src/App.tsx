@@ -1,13 +1,4 @@
-import {
-  AUTH_PATH,
-  BOARD_DETAIL_PATH,
-  BOARD_PATH,
-  BOARD_UPDATE_PATH,
-  BOARD_WRITE_PATH,
-  MAIN_PATH,
-  SEARCH_PATH,
-  USER_PATH
-} from "constant";
+import { AUTH_PATH, BOARD_DETAIL_PATH, BOARD_PATH, BOARD_UPDATE_PATH, BOARD_WRITE_PATH, MAIN_PATH, SEARCH_PATH, USER_PATH } from "constant";
 import Container from "layouts/Container";
 import { Route, Routes } from "react-router-dom";
 import Authentication from "views/Authentication";
@@ -18,6 +9,7 @@ import Main from "views/Main";
 import Search from "views/Search";
 import User from "views/User";
 import "./App.css";
+
 
 //  component: Application 컴포넌트 //
 function App() {
